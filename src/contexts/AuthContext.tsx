@@ -35,13 +35,6 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
     setLoading(false);
 
-    // Add event listener for browser close (not refresh)
-    const handleBeforeUnload = (e: BeforeUnloadEvent) => {
-      // Only clear session if it's actually a browser close, not a refresh
-      // We can't reliably detect this, so we'll rely on sessionStorage behavior
-      // sessionStorage persists through page refreshes but clears on browser close
-    };
-
     // Set up a heartbeat to detect if the browser was closed
     const heartbeatInterval = setInterval(() => {
       sessionStorage.setItem('heartbeat', Date.now().toString());
