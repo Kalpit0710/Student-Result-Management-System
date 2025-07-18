@@ -380,8 +380,8 @@ If you have any questions or need assistance, please contact the school administ
 
 Best regards,
 J.R. Preparatory School Administration
-Phone: +92-21-1234567
-Email: admin@jrprep.edu.pk
+Phone: +91-8363655600
+Email: jrpschool2008@gmail.com
 
 ---
 This is an automated message from the Student Result Management System.`;
